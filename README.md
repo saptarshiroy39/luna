@@ -1,19 +1,19 @@
 <h1 align="center">
   <b>🌙</b>
     <br>
-  <b>Luna AI</b>
+  <b>Luna</b>
 </h1>
 
 <p align="center">
-  <a href="https://community.n8n.io/t/luna-ai-n8n/305503"><b>Luna AI</b></a> is an intelligent multi-agent AI system built with <a href="https://n8n.io"><b>n8n</b></a> that provides specialized assistance across different domains through smart routing and dedicated agents. Powered by Google Gemini AI models, Luna delivers comprehensive help for research, coding, writing, general queries, news synthesis, and media generation—all through a unified conversational interface.
+  <a href="https://community.n8n.io/t/luna-ai-n8n/305503"><b>Luna</b></a> is an intelligent multi-agent AI system built with <a href="https://n8n.io"><b>n8n</b></a> that provides specialized assistance across different domains through smart routing and dedicated agents. Powered by Google Gemini AI models, Luna delivers comprehensive help for research, coding, writing, general queries, news synthesis, and media generation—all through a unified conversational interface.
 </p>
 
 <p align="center">
   <a href="https://community.n8n.io/t/luna-ai-n8n/305503">
     <img alt="n8n Workflow" src="https://img.shields.io/badge/workflow-n8n-orangered">
   </a>
-  <a href="https://github.com/saptarshiroy39/luna-ai/blob/main/LICENSE">
-    <img alt="GitHub License" src="https://img.shields.io/github/license/saptarshiroy39/luna-ai?color=crimson">
+  <a href="https://github.com/saptarshiroy39/luna/blob/main/LICENSE">
+    <img alt="GitHub License" src="https://img.shields.io/github/license/saptarshiroy39/luna?color=crimson">
   </a>
 </p>
 
@@ -41,9 +41,9 @@
 
 ## ✳️ _Workflow Overview_
 
-Luna AI uses a sophisticated multi-agent architecture with intelligent routing:
+Luna uses a sophisticated multi-agent architecture with intelligent routing:
 
-![Luna AI Workflow](Luna-AI.png)
+![Luna Workflow](Luna.png)
 
 ---
 

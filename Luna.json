@@ -1,5 +1,5 @@
 {
-  "name": "Luna-AI",
+  "name": "Luna",
   "nodes": [
     {
       "parameters": {
@@ -16,15 +16,15 @@
       "type": "@n8n/n8n-nodes-langchain.googleGeminiTool",
       "typeVersion": 1,
       "position": [
-        848,
-        1120
+        224,
+        848
       ],
-      "id": "b825de41-2bf0-400c-8d38-6b575b8bc610",
+      "id": "8d6d7a1e-1069-486e-9574-d2b1b3061b48",
       "name": "Image",
       "credentials": {
         "googlePalmApi": {
           "id": "y9lXuptApAW5W61N",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -43,15 +43,15 @@
       "type": "@n8n/n8n-nodes-langchain.googleGeminiTool",
       "typeVersion": 1,
       "position": [
-        960,
-        1120
+        336,
+        848
       ],
-      "id": "7c658e0f-a790-45cb-b638-0cd7da18c53c",
+      "id": "3ffddeaf-31ba-4c81-8795-a715820332a0",
       "name": "Audio",
       "credentials": {
         "googlePalmApi": {
           "id": "y9lXuptApAW5W61N",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -69,15 +69,15 @@
       "type": "@n8n/n8n-nodes-langchain.googleGeminiTool",
       "typeVersion": 1,
       "position": [
-        1184,
-        1120
+        560,
+        848
       ],
-      "id": "d018802c-6372-4c94-a473-fe29f6237f5a",
+      "id": "b561b49f-1850-4fbe-8657-47586579d3c0",
       "name": "Document",
       "credentials": {
         "googlePalmApi": {
           "id": "y9lXuptApAW5W61N",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -86,10 +86,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolCalculator",
       "typeVersion": 1,
       "position": [
-        960,
-        992
+        336,
+        720
       ],
-      "id": "af558683-8679-4e70-9271-d8e50a29ac5c",
+      "id": "d6ee503e-7d74-4f46-9a49-91589ed30a9c",
       "name": "Calculator - R"
     },
     {
@@ -97,10 +97,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolThink",
       "typeVersion": 1.1,
       "position": [
-        848,
-        992
+        224,
+        720
       ],
-      "id": "6bbf2083-28dc-4d32-b3c5-9c81cc43e2e2",
+      "id": "a44ee652-b25a-4c30-a98d-20a5653169d3",
       "name": "Think - R"
     },
     {
@@ -108,10 +108,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolThink",
       "typeVersion": 1.1,
       "position": [
-        880,
-        464
+        256,
+        192
       ],
-      "id": "4fed97c4-8d68-4de1-8773-d2d902e3dbca",
+      "id": "10290497-f088-4657-8bb4-e83b64eb1ba6",
       "name": "Think - G"
     },
     {
@@ -119,10 +119,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolCalculator",
       "typeVersion": 1,
       "position": [
-        1744,
-        976
+        1120,
+        704
       ],
-      "id": "aeeaaa7c-bb2d-4cad-aa4f-d63b3482934b",
+      "id": "add8fe9a-9baa-4f0a-aaa6-6f1d89500689",
       "name": "Calculator - C"
     },
     {
@@ -130,10 +130,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolThink",
       "typeVersion": 1.1,
       "position": [
-        1632,
-        976
+        1008,
+        704
       ],
-      "id": "eebf4a8f-3bcf-45bd-93b4-0b724521fdd4",
+      "id": "bf6ce872-6889-4970-aad0-4be8a59d1270",
       "name": "Think - C"
     },
     {
@@ -141,10 +141,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolCalculator",
       "typeVersion": 1,
       "position": [
-        1776,
-        480
+        1152,
+        208
       ],
-      "id": "8ea8d301-38b8-4b55-8b6c-a7cc6d1b3e99",
+      "id": "77f80e3d-12a9-490d-992a-994451dcbeea",
       "name": "Calculator -  W"
     },
     {
@@ -152,10 +152,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolThink",
       "typeVersion": 1.1,
       "position": [
-        1648,
-        480
+        1024,
+        208
       ],
-      "id": "018eb08d-2d3b-4265-8906-0b1b9fb0d971",
+      "id": "d221d9a8-f8ac-4c30-a311-3593d8b59626",
       "name": "Think - W"
     },
     {
@@ -163,10 +163,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolCalculator",
       "typeVersion": 1,
       "position": [
-        992,
-        464
+        368,
+        192
       ],
-      "id": "3870d2b3-9eb4-4d2d-bb3f-919ef004cd08",
+      "id": "b188391e-1cd1-488f-a518-ad4629a3491d",
       "name": "Calculator - G"
     },
     {
@@ -174,10 +174,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolWikipedia",
       "typeVersion": 1,
       "position": [
-        1072,
-        992
+        448,
+        720
       ],
-      "id": "30907acb-81f8-4d16-8ebb-86e7bcf94fcb",
+      "id": "f2a3dfb8-3be1-4536-b9cb-e9048372b0fe",
       "name": "Wikipedia"
     },
     {
@@ -194,15 +194,15 @@
       "type": "@n8n/n8n-nodes-langchain.googleGeminiTool",
       "typeVersion": 1,
       "position": [
-        1296,
-        1120
+        672,
+        848
       ],
-      "id": "48e153d1-fb13-4251-846e-34ac90d9e2cb",
+      "id": "65767c46-07b2-453e-bd94-0a1b77fe961f",
       "name": "Transcribe Audio",
       "credentials": {
         "googlePalmApi": {
           "id": "y9lXuptApAW5W61N",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -216,15 +216,15 @@
       "type": "n8n-nodes-base.youTubeTool",
       "typeVersion": 1,
       "position": [
-        848,
-        1264
+        224,
+        992
       ],
-      "id": "ff269d21-35ec-40ac-99e8-334299c6fd02",
+      "id": "96690c2e-81a6-4405-b49b-7edba9d846bb",
       "name": "YT Video",
       "credentials": {
         "youTubeOAuth2Api": {
           "id": "9H6KIiLc8dpSgokN",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -238,15 +238,15 @@
       "type": "n8n-nodes-base.youTubeTool",
       "typeVersion": 1,
       "position": [
-        960,
-        1264
+        336,
+        992
       ],
-      "id": "00e821c2-844a-4ad2-91ad-9c14302947b3",
+      "id": "e8c52e15-a0b5-4d33-8b49-222e0e76d71a",
       "name": "YT Playlist",
       "credentials": {
         "youTubeOAuth2Api": {
           "id": "9H6KIiLc8dpSgokN",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -258,15 +258,15 @@
       "type": "n8n-nodes-base.youTubeTool",
       "typeVersion": 1,
       "position": [
-        1072,
-        1264
+        448,
+        992
       ],
-      "id": "99fa2616-59cf-464d-9b31-fe54b1abfebd",
+      "id": "c7a94854-5ae2-4ad7-bfbe-aadaf88c921a",
       "name": "YT Channel",
       "credentials": {
         "youTubeOAuth2Api": {
           "id": "9H6KIiLc8dpSgokN",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -277,10 +277,10 @@
       "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
       "typeVersion": 1.3,
       "position": [
-        720,
-        1136
+        96,
+        864
       ],
-      "id": "0961f88a-43d7-4529-b4b5-cabeb8e3321c",
+      "id": "6d3a9498-535d-43bb-8682-ea3f4d19985e",
       "name": "Research Memory"
     },
     {
@@ -290,10 +290,10 @@
       "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
       "typeVersion": 1.3,
       "position": [
-        1488,
-        1120
+        864,
+        848
       ],
-      "id": "d05503bb-73fc-402d-a7d8-8a46d47a259b",
+      "id": "ddb814e0-17dd-44e1-a8d4-1d65ec6e2f2c",
       "name": "Coding Memory"
     },
     {
@@ -303,10 +303,10 @@
       "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
       "typeVersion": 1.3,
       "position": [
-        736,
-        608
+        112,
+        336
       ],
-      "id": "ce03cd95-a7e7-4a8e-a151-44546f993530",
+      "id": "a1b80731-4a56-4ee6-8978-b00f3167420b",
       "name": "General Memory"
     },
     {
@@ -316,10 +316,10 @@
       "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
       "typeVersion": 1.3,
       "position": [
-        1504,
-        624
+        880,
+        352
       ],
-      "id": "bd277630-0e18-4988-a972-dcecfa751824",
+      "id": "6bc1a485-838f-4e87-9d5f-79f573281f51",
       "name": "Writing Memory"
     },
     {
@@ -482,10 +482,10 @@
       "type": "n8n-nodes-base.switch",
       "typeVersion": 3.3,
       "position": [
-        608,
-        0
+        -16,
+        -288
       ],
-      "id": "fadcabb9-d874-48f3-b182-8e816a59e218",
+      "id": "e5baec31-9b3a-4aa6-99be-203f50af6cba",
       "name": "Switch"
     },
     {
@@ -493,10 +493,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolThink",
       "typeVersion": 1.1,
       "position": [
-        416,
-        288
+        -208,
+        16
       ],
-      "id": "dc9b5a18-9b46-4da1-bfd5-c9a05105893e",
+      "id": "4468e0de-56cf-4b65-86a2-fc9f59db3004",
       "name": "Think"
     },
     {
@@ -508,10 +508,10 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
       "position": [
-        640,
-        304
+        16,
+        32
       ],
-      "id": "87863d5d-9769-4704-8bae-2ad905339107",
+      "id": "fff5e708-a1a6-4807-b3b3-8a7207aa7277",
       "name": "General Agent"
     },
     {
@@ -523,10 +523,10 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
       "position": [
-        624,
-        800
+        0,
+        528
       ],
-      "id": "3e150dbf-b4b5-4a76-aee8-50a66deba7a3",
+      "id": "e0c4e09e-e8d2-4b9b-84dc-5ea38deeafdc",
       "name": "Research Agent"
     },
     {
@@ -538,10 +538,10 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
       "position": [
-        1408,
-        304
+        784,
+        32
       ],
-      "id": "f5667725-9fd6-48b2-8065-91806ac4141a",
+      "id": "2968fbc2-d3b9-43e4-8384-9db70cbcf3f9",
       "name": "Writing Agent"
     },
     {
@@ -553,10 +553,10 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
       "position": [
-        1392,
-        800
+        768,
+        528
       ],
-      "id": "a4e81d19-9b49-461e-acdd-d83d5c486605",
+      "id": "f65ed81a-c45d-4ee7-b6ed-85f7ca2cc9df",
       "name": "Coding Agent"
     },
     {
@@ -574,15 +574,15 @@
       "type": "@n8n/n8n-nodes-langchain.googleGemini",
       "typeVersion": 1,
       "position": [
-        2560,
-        272
+        1936,
+        -16
       ],
-      "id": "c86a4c81-7a9b-43a3-a502-da8808dacc1d",
+      "id": "4f9604b4-786f-4117-9c28-39896191d0fc",
       "name": "Generate Image",
       "credentials": {
         "googlePalmApi": {
           "id": "y9lXuptApAW5W61N",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -600,15 +600,15 @@
       "type": "@n8n/n8n-nodes-langchain.googleGemini",
       "typeVersion": 1,
       "position": [
-        2560,
-        432
+        1936,
+        160
       ],
-      "id": "5b2c2f45-b06e-4c7c-95a6-1cdba062f54b",
+      "id": "10996290-ab4e-427c-8962-b8e31217083b",
       "name": "Generate Video",
       "credentials": {
         "googlePalmApi": {
           "id": "y9lXuptApAW5W61N",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -623,10 +623,10 @@
       "type": "@n8n/n8n-nodes-langchain.chatTrigger",
       "typeVersion": 1.3,
       "position": [
-        0,
-        64
+        -624,
+        -224
       ],
-      "id": "896b0ce2-bb3c-4bc1-a558-47d5b9c2c652",
+      "id": "acb3dc58-eb3e-480e-b1fb-7f2816e81f95",
       "name": "Chat",
       "webhookId": "57a633a3-c34c-48c2-9a21-756effc6e4ad"
     },
@@ -639,10 +639,10 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
       "position": [
-        224,
-        64
+        -400,
+        -224
       ],
-      "id": "bd204f31-f7dd-42d0-bfb3-5fbcefe81e7d",
+      "id": "690e980c-5051-4a39-a7ef-8fb4d81d7ee3",
       "name": "Router"
     },
     {
@@ -652,10 +652,10 @@
       "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
       "typeVersion": 1.3,
       "position": [
-        320,
-        448
+        -304,
+        176
       ],
-      "id": "16bc3142-c403-4a19-8dc9-eb69e980856b",
+      "id": "cc6b89f3-1951-42f4-90f0-24e9b341821c",
       "name": "Router Memory"
     },
     {
@@ -666,15 +666,15 @@
       "type": "n8n-nodes-base.googleTranslateTool",
       "typeVersion": 2,
       "position": [
-        1648,
-        608
+        1024,
+        336
       ],
-      "id": "ec301102-3830-48d6-b505-c13449ec9289",
+      "id": "2de2225f-e35a-4969-94ba-0658df0f3700",
       "name": "Translate EN",
       "credentials": {
         "googleTranslateOAuth2Api": {
           "id": "hHhFmabbQcqBcsXS",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -686,15 +686,15 @@
       "type": "n8n-nodes-base.googleTranslateTool",
       "typeVersion": 2,
       "position": [
-        1776,
-        608
+        1152,
+        336
       ],
-      "id": "8ac2040f-6339-48c0-8982-3c0d54329fb9",
+      "id": "ece4c00f-089e-44b6-b623-525608e3e1c7",
       "name": "Translate BN",
       "credentials": {
         "googleTranslateOAuth2Api": {
           "id": "hHhFmabbQcqBcsXS",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -706,15 +706,15 @@
       "type": "n8n-nodes-base.googleTranslateTool",
       "typeVersion": 2,
       "position": [
-        1904,
-        608
+        1280,
+        336
       ],
-      "id": "9adbd862-939c-4c28-8e6f-e31c79d612d3",
+      "id": "1b05a474-6f6f-4f99-8679-584b91a91bb2",
       "name": "Translate HI",
       "credentials": {
         "googleTranslateOAuth2Api": {
           "id": "hHhFmabbQcqBcsXS",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -725,15 +725,15 @@
       "type": "n8n-nodes-base.openWeatherMapTool",
       "typeVersion": 1,
       "position": [
-        880,
-        592
+        256,
+        320
       ],
-      "id": "d77fd8e9-ef9d-452c-9aaa-d77acc4e429a",
+      "id": "616f7c56-a39c-46af-8ea0-93fd352027cb",
       "name": "Weather",
       "credentials": {
         "openWeatherMapApi": {
           "id": "LZHJfM4B6fxeTzVh",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -750,16 +750,16 @@
       "type": "n8n-nodes-base.githubTool",
       "typeVersion": 1.1,
       "position": [
-        1632,
-        1104
+        1008,
+        832
       ],
-      "id": "45d3fe92-096c-4f77-92fb-f93ba774dca2",
+      "id": "8f858f73-fdcb-4a51-b3f4-ab41e0db9aa9",
       "name": "Get Repo",
       "webhookId": "2f5a1e7f-a1e2-43ce-8066-28f921a5ced6",
       "credentials": {
         "githubApi": {
           "id": "ceecJ4G4aFDVZoA3",
-          "name": "Luna AI"
+          "name": "Luna"
         }
       }
     },
@@ -781,16 +781,16 @@
       "type": "n8n-nodes-base.githubTool",
       "typeVersion": 1.1,
       "position": [
-        1744,
-        1104
+        1120,
+        832
       ],
-      "id": "6050df0f-767f-4db8-9f75-e643186d31cc",
+      "id": "0ff88231-f767-4687-be63-8a312f18a640",
       "name": "Get Data",
       "webhookId": "9335a463-2b21-40a8-946f-ec6d192e38a0",
       "credentials": {
         "githubApi": {
           "id": "ceecJ4G4aFDVZoA3",
-          "name": "Luna AI"
+          "name": "Luna"
         }
       }
     },
@@ -801,10 +801,10 @@
       "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
       "typeVersion": 1.3,
       "position": [
-        2176,
-        624
+        1552,
+        352
       ],
-      "id": "05046663-72f9-41ae-88c7-e068278a2170",
+      "id": "3ced6d83-a187-41d9-bdab-a37afecddb3e",
       "name": "Media Memory"
     },
     {
@@ -812,10 +812,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolThink",
       "typeVersion": 1.1,
       "position": [
-        2272,
-        480
+        1648,
+        208
       ],
-      "id": "99bb6054-1ff5-4c1f-a7ae-3296b273a941",
+      "id": "b4e8a431-ab11-4d85-a95d-69d25d3c526f",
       "name": "Think - M"
     },
     {
@@ -903,10 +903,10 @@
       "type": "n8n-nodes-base.switch",
       "typeVersion": 3.3,
       "position": [
-        2368,
-        288
+        1744,
+        16
       ],
-      "id": "7b85439c-b2c0-41c3-bac4-ff1ddbff728e",
+      "id": "e0e75841-65cb-4c91-b6be-ab04bf3b2f73",
       "name": "Media Switch"
     },
     {
@@ -918,10 +918,10 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
       "position": [
-        2080,
-        304
+        1456,
+        32
       ],
-      "id": "1410951d-c970-4bff-8013-7b4dcfb14b79",
+      "id": "361030e3-0bd3-454d-84b8-05a154257635",
       "name": "Media Agent"
     },
     {
@@ -931,10 +931,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        2560,
-        592
+        1936,
+        320
       ],
-      "id": "b86871a7-78d3-44a2-9607-707f09d8d830",
+      "id": "d34231a7-89e6-47b8-9dee-08c75b36efa4",
       "name": "Extract Quotes"
     },
     {
@@ -945,10 +945,10 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        2720,
-        592
+        2096,
+        320
       ],
-      "id": "434d899b-79b2-454c-a06b-67ea69e60ebd",
+      "id": "95b13121-a57a-426e-ba50-ba344fbe90b7",
       "name": "VoiceRSS TTS"
     },
     {
@@ -959,15 +959,15 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        224,
-        256
+        -400,
+        -32
       ],
-      "id": "c2585650-7fd9-492e-88c4-9894d4b5dc5a",
+      "id": "03c96998-88a7-41d2-a434-fbd38ac576f0",
       "name": "Gemini",
       "credentials": {
         "googlePalmApi": {
           "id": "y9lXuptApAW5W61N",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -979,15 +979,15 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        640,
-        480
+        16,
+        208
       ],
-      "id": "a834438b-1185-4383-8b2c-3bd8134c2f0f",
+      "id": "3f4f0811-ebda-4a3e-8dc2-80c527ce7ac8",
       "name": "General",
       "credentials": {
         "googlePalmApi": {
           "id": "y9lXuptApAW5W61N",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -999,15 +999,15 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        1408,
-        496
+        784,
+        224
       ],
-      "id": "60a07d63-53cf-42ab-a11c-bfc9969ef5ae",
+      "id": "3c7717b0-aa63-4ad8-93c2-62a3a90a9f3b",
       "name": "Writing",
       "credentials": {
         "googlePalmApi": {
           "id": "y9lXuptApAW5W61N",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -1019,15 +1019,15 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        2080,
-        496
+        1456,
+        224
       ],
-      "id": "74f5aa6f-5e48-491b-873a-fde48523c52f",
+      "id": "4b18e26e-1a92-41e6-b285-43738fc6ad94",
       "name": "Media",
       "credentials": {
         "googlePalmApi": {
           "id": "y9lXuptApAW5W61N",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -1039,15 +1039,15 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        1392,
-        992
+        768,
+        720
       ],
-      "id": "b16dbc81-1e63-4b95-8840-ff22807425f6",
+      "id": "6248edf5-61c1-471b-b617-6da895610eea",
       "name": "Coding",
       "credentials": {
         "googlePalmApi": {
           "id": "y9lXuptApAW5W61N",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -1060,10 +1060,10 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 2.2,
       "position": [
-        2080,
-        800
+        1456,
+        528
       ],
-      "id": "d8d21aa1-026b-4ba6-accf-7bf636959156",
+      "id": "b37de10f-9726-4346-8ab4-855bfde1ad8d",
       "name": "News Agent"
     },
     {
@@ -1074,15 +1074,15 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
       "typeVersion": 1,
       "position": [
-        2080,
-        992
+        1456,
+        720
       ],
-      "id": "c1a291ad-91e7-4faf-ac21-1764d563a460",
+      "id": "ef102af7-0370-4924-93fc-6eb3d71627ff",
       "name": "News",
       "credentials": {
         "googlePalmApi": {
           "id": "y9lXuptApAW5W61N",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -1091,10 +1091,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolThink",
       "typeVersion": 1.1,
       "position": [
-        2320,
-        976
+        1696,
+        704
       ],
-      "id": "0b14dc09-c41f-4c52-a13c-1ac260c47bfa",
+      "id": "d3dcce6a-53a0-4dc5-9dc6-dd25794a8bca",
       "name": "Think - N"
     },
     {
@@ -1106,10 +1106,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2320,
-        1104
+        1696,
+        832
       ],
-      "id": "3961bcbc-d52a-4b50-a7ab-6c45da44d85c",
+      "id": "b96615a2-0a61-44a7-be98-7c29dbcfd3e7",
       "name": "R. Ex"
     },
     {
@@ -1121,10 +1121,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2768,
-        1104
+        2144,
+        832
       ],
-      "id": "969a252c-e526-49b2-9f59-405ac5de20c9",
+      "id": "74a006b5-d661-4d61-9ced-5703d69db70f",
       "name": "R. India"
     },
     {
@@ -1136,10 +1136,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2880,
-        1104
+        2256,
+        832
       ],
-      "id": "0d2f590b-5746-4330-a08d-0ddc00617c8d",
+      "id": "37865f89-496b-4245-a558-f402bf1f5b88",
       "name": "R. World"
     },
     {
@@ -1151,10 +1151,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2656,
-        1104
+        2032,
+        832
       ],
-      "id": "1d4619b3-2472-429c-930b-e0b602ef501b",
+      "id": "57024eb2-1deb-4781-890a-5558db94bbdd",
       "name": "R. Fact"
     },
     {
@@ -1166,10 +1166,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2992,
-        1104
+        2368,
+        832
       ],
-      "id": "8a833b63-36fd-4181-bf14-289b6eca29fe",
+      "id": "188cf1f6-05df-46e8-880e-7b3ca0acd66d",
       "name": "R. Science"
     },
     {
@@ -1181,10 +1181,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        3104,
-        1104
+        2480,
+        832
       ],
-      "id": "a88243ee-ea24-4b9c-a8c8-41027a3c580a",
+      "id": "2b0e1f2d-cee8-48cf-a6ee-4fa42deaa2a2",
       "name": "R. Tech"
     },
     {
@@ -1196,10 +1196,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        3328,
-        1104
+        2704,
+        832
       ],
-      "id": "9fc566da-9566-4a42-931e-f6973ab46673",
+      "id": "1fb0ad2d-c997-40c3-8ec5-f9dfde7bd27b",
       "name": "R. Sports"
     },
     {
@@ -1211,10 +1211,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        3328,
-        1232
+        2704,
+        960
       ],
-      "id": "0d40de8e-3e33-454e-83bb-4c933a842c98",
+      "id": "52acd7f4-4249-422f-9b64-8b2adc03e764",
       "name": "NDTV Sports"
     },
     {
@@ -1226,10 +1226,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        3104,
-        1232
+        2480,
+        960
       ],
-      "id": "b66abbe7-ac60-4701-bb9b-be39b710e96b",
+      "id": "189a348b-64ed-4347-96b8-96bc5dd3e34e",
       "name": "NDTV Tech"
     },
     {
@@ -1241,10 +1241,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2880,
-        1232
+        2256,
+        960
       ],
-      "id": "0c46702d-8a2c-4e7e-9e2d-99bcd1f0d51a",
+      "id": "961296ad-e6a6-44dd-9103-90b247d274a2",
       "name": "NDTV World"
     },
     {
@@ -1256,10 +1256,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2768,
-        1232
+        2144,
+        960
       ],
-      "id": "42082cab-07ce-4d6a-9b5a-29a36ef12e6e",
+      "id": "8565310e-8594-42ef-81e6-f46ad7755933",
       "name": "NDTV India"
     },
     {
@@ -1271,10 +1271,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2320,
-        1232
+        1696,
+        960
       ],
-      "id": "10cbc95c-5e1d-46a3-9e3d-2755fec097e8",
+      "id": "3eee8178-dc1a-4d86-8928-416dc81865e0",
       "name": "NDTV Late"
     },
     {
@@ -1286,10 +1286,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2432,
-        1232
+        1808,
+        960
       ],
-      "id": "b41f7942-e8bb-4f26-96c9-fd97b99a8bad",
+      "id": "b7210311-a484-42bf-9343-b7e1698ee615",
       "name": "NDTV Trend"
     },
     {
@@ -1301,10 +1301,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2544,
-        1232
+        1920,
+        960
       ],
-      "id": "ee8b8c14-22f9-44a6-bc8e-b4335902e59b",
+      "id": "fd08b325-66ee-40e3-9744-6fb62ede8c22",
       "name": "NDTV Top"
     },
     {
@@ -1316,10 +1316,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2320,
-        1360
+        1696,
+        1088
       ],
-      "id": "96ccf5d0-a892-4cc1-b636-ffa66098617e",
+      "id": "8732a71a-3e49-4ca2-abba-c6a33061d9ea",
       "name": "ABP Home"
     },
     {
@@ -1331,10 +1331,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2432,
-        1360
+        1808,
+        1088
       ],
-      "id": "9c83a8c8-4d52-42d6-9097-bf7a17ee1455",
+      "id": "87d573a4-cfd0-413a-8bb2-f8f318f9ff7f",
       "name": "ABP Trend"
     },
     {
@@ -1346,10 +1346,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2656,
-        1360
+        2032,
+        1088
       ],
-      "id": "c5fda358-e1d2-46e8-bb48-685acd5e589c",
+      "id": "3b66fb90-0138-49f9-9f43-16c6f65e3ac2",
       "name": "ABP Fact"
     },
     {
@@ -1361,10 +1361,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2768,
-        1360
+        2144,
+        1088
       ],
-      "id": "f90b87a6-b3c0-47ff-8ed8-48da6188d096",
+      "id": "4e7eaa02-9aff-4f7e-a9c8-b4596a29424e",
       "name": "ABP India"
     },
     {
@@ -1376,10 +1376,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        2880,
-        1360
+        2256,
+        1088
       ],
-      "id": "c247b195-be8b-4f3b-960a-a9b80a6664cc",
+      "id": "f0431ddc-5278-486d-8298-b689ceb6c964",
       "name": "ABP World"
     },
     {
@@ -1391,10 +1391,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        3440,
-        1360
+        2816,
+        1088
       ],
-      "id": "3b5f8aff-f81a-4837-b6d2-bcf005230f5f",
+      "id": "9999e5e5-a675-47ee-9964-4bae68d7e67d",
       "name": "ABP Game"
     },
     {
@@ -1406,10 +1406,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        3104,
-        1360
+        2480,
+        1088
       ],
-      "id": "c508577c-8ccd-42f9-8fd2-a3b9b3434de7",
+      "id": "f2683091-33ce-4889-87ab-7139c433afa5",
       "name": "ABP Tech"
     },
     {
@@ -1421,10 +1421,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        3328,
-        1360
+        2704,
+        1088
       ],
-      "id": "9de6c3bb-5b96-456b-a9bb-ce646d109acc",
+      "id": "efb21860-db10-4c07-a3a5-dbb352b73d59",
       "name": "ABP Sports"
     },
     {
@@ -1436,10 +1436,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        3440,
-        1104
+        2816,
+        832
       ],
-      "id": "ae6da43c-ad5c-4d5a-9a9a-1f1dbf3d5415",
+      "id": "f2222075-6fdc-4bec-a2fe-98c5d166b150",
       "name": "R. Game"
     },
     {
@@ -1451,10 +1451,10 @@
       "type": "n8n-nodes-base.rssFeedReadTool",
       "typeVersion": 1.2,
       "position": [
-        3216,
-        1104
+        2592,
+        832
       ],
-      "id": "c4666400-22a4-4544-8add-63a066aac807",
+      "id": "6d040e9d-f47f-4b1c-be8e-939fcd948665",
       "name": "R. Space"
     },
     {
@@ -1466,10 +1466,10 @@
       "type": "n8n-nodes-base.dateTimeTool",
       "typeVersion": 2,
       "position": [
-        1104,
-        464
+        480,
+        192
       ],
-      "id": "e622f3e0-8967-4cae-9e67-be801abf1d3d",
+      "id": "1a5c05e5-1703-4c82-98b4-551cc5b564b6",
       "name": "Date & Time - G"
     },
     {
@@ -1479,10 +1479,10 @@
       "type": "n8n-nodes-base.dateTimeTool",
       "typeVersion": 2,
       "position": [
-        2432,
-        976
+        1808,
+        704
       ],
-      "id": "cd71e916-dcbe-41a1-ad3f-6fb314bd9ac2",
+      "id": "5e2139ce-2358-466d-af8e-96bd0337aa10",
       "name": "Date & Time - N"
     },
     {
@@ -1492,10 +1492,10 @@
       "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
       "typeVersion": 1.3,
       "position": [
-        2176,
-        1120
+        1552,
+        848
       ],
-      "id": "0e76dfce-3099-4b93-a82f-8f81518c39da",
+      "id": "e977b551-4b7c-475b-b2ad-6d7cdd1902b1",
       "name": "News Memory"
     },
     {
@@ -1511,15 +1511,15 @@
       "type": "@tavily/n8n-nodes-tavily.tavilyTool",
       "typeVersion": 2,
       "position": [
-        1184,
-        992
+        560,
+        720
       ],
-      "id": "1bae24d4-dc2e-448a-97fd-8cce558831dc",
+      "id": "a60d4915-eef7-4882-bd25-7a8502a8871e",
       "name": "Tavily - R",
       "credentials": {
         "tavilyApi": {
-          "id": "zW20fsUnT1BYFSaC",
-          "name": "Luna AI"
+          "id": "xJ6Ccd1tIFfGX44L",
+          "name": "Luna"
         }
       }
     },
@@ -1538,15 +1538,15 @@
       "type": "@n8n/n8n-nodes-langchain.googleGeminiTool",
       "typeVersion": 1,
       "position": [
-        1072,
-        1120
+        448,
+        848
       ],
-      "id": "0c4f95ff-228e-405c-931d-763f2ff5fb8f",
+      "id": "e7abab57-a275-4159-9f4f-64f4d0d6e34e",
       "name": "Video",
       "credentials": {
         "googlePalmApi": {
           "id": "y9lXuptApAW5W61N",
-          "name": "Luna-AI"
+          "name": "Luna"
         }
       }
     },
@@ -1563,15 +1563,35 @@
       "type": "@tavily/n8n-nodes-tavily.tavilyTool",
       "typeVersion": 2,
       "position": [
-        2544,
-        976
+        1920,
+        704
       ],
-      "id": "9c7730fd-2a2b-4513-8529-b1c5cd0adbed",
+      "id": "10f90433-e6dd-471d-b284-dc030f2a92c9",
       "name": "Tavily - N",
       "credentials": {
         "tavilyApi": {
-          "id": "zW20fsUnT1BYFSaC",
-          "name": "Luna AI"
+          "id": "xJ6Ccd1tIFfGX44L",
+          "name": "Luna"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-3.1-flash-lite",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        0,
+        720
+      ],
+      "id": "d599e89e-70a7-4b99-a356-90b7f10f41d0",
+      "name": "Research",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "y9lXuptApAW5W61N",
+          "name": "Luna"
         }
       }
     }
@@ -2429,6 +2449,17 @@
           }
         ]
       ]
+    },
+    "Research": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Research Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "active": false,
@@ -2436,13 +2467,13 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "f87134bc-5808-4939-9f8b-5b3f0465371a",
+  "versionId": "1667c8db-e6a2-405d-80ba-e287f60722d0",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "2da22788b0bf09fa97a72f663349bce59fd7b5f3d817df3de98f755854375866"
   },
   "nodeGroups": [],
-  "id": "WCYWMr12rtmBoul0",
+  "id": "j4rGSXNTkZAd80P3",
   "tags": [
     {
       "updatedAt": "2026-10-15T12:50:49.016Z",
